@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Will You Be My Valentine?</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+
+<div class="container" id="login-screen">
+  <h1>Password?</h1>
+  <input type="password" id="password-input" placeholder="Password..." />
+  <button id="submit-password" class="btn yes-btn" style="position: relative; margin-top: 20px;">Enter</button>
+  <p id="error-msg">Wrong password :( try again!</p>
+</div>
+
+<div class="container hidden" id="main-card">
+  <img src="/melo.gif" alt="Cute Bear" />
+  <h1 id="question">Hi goober :> will you be my valentine?</h1>
+  <div class="btn-placeholder">
+    <button id="yesBtn" class="btn yes-btn">YES</button>
+    <button id="noBtn" class="btn no-btn">No</button>
+  </div>
+</div>
+
+<div id="success-message">
+  <img src="/labubu_nap.jpg" alt="Happy Cat" />
+  <h2>
+    YAYAYAYAY! i labububu the mostest. thank you for being the bestest and
+    most adorable and amazing girlfriend ❤️
+  </h2>
+</div>
+
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
